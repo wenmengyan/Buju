@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:12px;
+  
+}
+body{
+  background-color:#fff;
+}
+a{
+    text-decoration: none;
+  color:black;
+}
+.wrap{
+  margin:0 auto;
+  width:1000px;
+}
+.menu{
+  height:80px;
+}
+.menu_logo{
+  width:200px;
+  float:left;
+}
+.menu_list li{
+  width:100px;
+  height:80px;
+  float:left;
+  text-align:center;
+  line-height:80px;
+  float:left;
+  list-style-type: none;
+}
+.menu_list li a:hover{
+background-color:#BE3948;
+color:#ffffff;
+display:block;
+}
+.menu_list li a{
+  font-size:18px;
+}
+.ad{
+  height:310px;
+  overflow:hidden;
+}
+.news{
+  margin:20px 0;
+}
+.news_title{
+  background-color:#BE3948;
+  width:150px;
+  height:40px;
+float:left;
+  text-align:center;
+}
+.news_rolling{
+  background-color:#3e3e3e;
+  width:830px;
+  float:left;
+  height:40px;
+  padding:0 10px;
+}
+.news_rolling,.news_title{
+line-height:40px;
+color:white;
+font-size:15px;
+}
+.pic1,.pic2,.pic3{
+  margin-top:20px;
+  width:330px;
+  float:left;
+}
+.pic2{
+  margin:20px 5px 0 5px;
+}
+.pic1 img,.pic2 img,.pic3 img{
+  width:330px;
+  height:130px;
+}
+.picText{
+  width:328px;
+  border:1px solid #e2e2e2;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+}
+.end_title{
+  width:330px;
+  color:white;
+  background-color: #BE3948;
+  height:40px;
+  font-size:15px;
+  line-height:40px;
+  text-indent:2em;
+  margin-top:20px;
+}
+.news_list{
+   border:1px solid #e2e2e2;
+   height:270px;
+}
+.news_list li{
+  list-style-type: none;
+  border-bottom: 1px solid #e2e2e2;
+  margin:0 10px;
+  height:85px;
+}
+.news_list a{
+  font-size:14px;
+  line-height: 40px;
+  font-weight:bold;
+}
+.date{
+width:50px;
+  height:60px;
+  background-color: #BE3948;
+  border-radius: 10%;
+  color:white;
+  font-size:15px;  
+  float: left;
+  margin-top:15px;
+  margin-right:10px;
+}
+.date p{
+  margin-top:15px;
+  margin-left:14px;
+
+}
+.news_list img{
+   margin-left:25px;
+   margin-top:25px;
+   width:280px;
+   height:120px;
+}
+.news_list h3{
+  font-size:15px;
+  margin-left:5px;
+  margin-top:7px;
+  font-weight:normal;
+  margin-bottom:30px;
+}
+.end{
+  height:60px;
+  line-height: 60px;
+  background-color: rgba(231, 231, 231, 0.77);
+  font-size:20px;
+  text-align:center;
+  width:1000px;
+  margin-top:585px;
+}
+#first{
+    background-color: #BE3948;
+    color:white;
+    display: block;
+}
